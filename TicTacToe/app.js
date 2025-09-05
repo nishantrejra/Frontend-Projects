@@ -53,7 +53,7 @@ const enableBoxes = () => {
 }
 
 const showWinner = (winner) => {
-    msg.innerText = `Congratulations, Winner is ${winner}`;
+    msg.innerText = `Congratulations! Player ${winner} Wins!`;
     disableBoxes();
 
     resetBtn.innerText = "New Game";    
@@ -76,5 +76,6 @@ const checkWinner = () => {
     }
 
 }
+
 
 resetBtn.addEventListener("click", reset);
