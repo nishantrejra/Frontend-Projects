@@ -44,11 +44,11 @@ body {
 
 #rstbtn {
     height: 6vmin;
-    width: 25vmin;
+    width: 30vmin;
     background-color: #ffcc00;
     color: #2D4F2B;
     border-radius: 10rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border: none;
     font-weight: bolder;
     margin-top: 1rem;
@@ -63,4 +63,5 @@ body {
 #message {
     color: #ffcc00;
     font-size: 5vmin;
+
 }
